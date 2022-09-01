@@ -38,7 +38,7 @@ CTF's are inherently puzzles that are intended to challenge you and help you lea
 
 Dataset can be downloaded using kaggle API ```kaggle competitions download -c ai-village-ctf```.
 
-**NOTE**: Dataset is given in this repository, but you need to add a ```.pckl``` file before starting off. You need to download and place ```04JUN_crop_model.pckl``` file in the ```../ai-village-ctf/crop/``` directory.
+**NOTE**: Dataset is given in this repository, but you need to [add](https://www.kaggle.com/competitions/ai-village-ctf/data?select=crop) a ```.pckl``` file before starting off. You need to download and place ```04JUN_crop_model.pckl``` file in the ```../ai-village-ctf/crop/``` directory.
 
 This CTF follows a different flow than Most Kaggle Competitions. Competitors will be interacting with API endpoints during each of the challenges. Upon successful completion of a challenge, that challenge will return a flag (a 128 character string). To update the scoreboard, competitors will submit a .csv containing all of their flags. This can be done by uploading a file with all of your flags. There is a [template](https://github.com/anubhavde/jubilant-robot-hacker/blob/main/template.ipynb) for reference purpose. Cumulative scores will be weighted based on the difficulty of the challenge. All competitors start at 0 and work their way towards a perfect score of 1.
 
